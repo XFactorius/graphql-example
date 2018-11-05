@@ -1,5 +1,6 @@
 type Query {
     people: [People]
+    findPeople ( input : ID ! ) : [ People ! ]
 }
 
 type People {
